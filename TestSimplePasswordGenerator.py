@@ -3,7 +3,7 @@ from password_gen import total_passwords, simple_password_gen
 import re
 
 
-class Testing(unittest.TestCase):
+class TestSimplePasswordGenerator(unittest.TestCase):
 
     # Number of passwords generated must be greater than or equal to one
     def test_check_correct_input(self):
